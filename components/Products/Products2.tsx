@@ -6,7 +6,7 @@ import Watches from './Watches'
 
 const Products2 = () => {
   return (
-    <div>
+    <div className='px-3'>
         <SubHeader text={`Exclusive Men's Collection`}/>
         <Women/>
         <SubHeader text={`HandPicked Collection`}/>

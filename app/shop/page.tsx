@@ -8,6 +8,7 @@ import React, { useState } from 'react'
 // image
 import src from '../../public/bot/bot.png'
 import Image from 'next/image'
+import FilterMob from '@/components/Ui/Filter/FilterMob'
 
 const page = () => {
   const [showchat, setShowchat] = useState('icon')
@@ -22,6 +23,10 @@ const page = () => {
     <div className='px-8 relative'>
       <div className='flex justify-center'>
         <Logo h={'200px'} w={'200px'} />
+      </div>
+
+      <div className='block md:hidden'>
+        <FilterMob/>
       </div>
 
       <div className='grid grid-cols-3 md:grid-cols-4'>
@@ -43,7 +48,7 @@ const page = () => {
             <p>Ask AI</p>
           </div>
           :
-          <Chat fun={setShowchat} />
+          <Chat fun={handleChat} />
       }
 
 

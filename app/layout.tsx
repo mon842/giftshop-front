@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Gift Shop',
   description: 'Your all in one gifts destination',
+  keywords: 'Affordable Shipping, Fast Delivery, Door-to-Door Shipping, Reliable Shipping Partner,Shipping Solutions and Secure Handling'
 }
 
 export default function RootLayout({

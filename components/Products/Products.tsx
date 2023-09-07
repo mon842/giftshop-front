@@ -5,7 +5,7 @@ import SubHeader from '../header/SubHeader'
 
 const Products = () => {
   return (
-    <div>
+    <div className='px-3'>
         <SubHeader text={`Exclusive Men's Collection`}/>
         <Men/>
         <SubHeader text={`HandPicked Collection`}/>

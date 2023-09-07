@@ -4,7 +4,7 @@ import React from 'react'
 
 const Chat = (props) => {
     return (
-        <div className="w-96 px-5 flex flex-col justify-between fixed top-40 right-5 bg-gray-100">
+        <div className="w-2/3 md:w-96 px-5 flex flex-col justify-between fixed top-40 right-5 bg-gray-100">
             <button onClick={props.fun} className='absolute left-0'>X</button>
             <div className="flex flex-col mt-5">
 
