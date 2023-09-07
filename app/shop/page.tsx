@@ -10,7 +10,7 @@ import src from '../../public/bot/bot.png'
 import Image from 'next/image'
 import FilterMob from '@/components/Ui/Filter/FilterMob'
 
-const page = () => {
+const Page = () => {
   const [showchat, setShowchat] = useState('icon')
   const handleChat = () => {
     if (showchat === 'icon') {
@@ -56,4 +56,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
